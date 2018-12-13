@@ -36,7 +36,7 @@ SOURCES += \
     EducationProgressForms/InputForms/departmentsinputform.cpp \
     EducationProgressForms/InputForms/groupinputform.cpp \
     EducationProgressForms/InputForms/specialiyinputform.cpp \
-    EducationProgressForms/InputForms/markinputform.cpp
+    EducationProgressForms/InputForms/weekinputform.cpp
 
 HEADERS += \
     databasehelper.h \
@@ -49,7 +49,7 @@ HEADERS += \
     EducationProgressForms/InputForms/departmentsinputform.h \
     EducationProgressForms/InputForms/groupinputform.h \
     EducationProgressForms/InputForms/specialiyinputform.h \
-    EducationProgressForms/InputForms/markinputform.h
+    EducationProgressForms/InputForms/weekinputform.h
 
 FORMS += \
     EducationProgressForms/educationprogressmainwindow.ui \
@@ -61,7 +61,7 @@ FORMS += \
     EducationProgressForms/InputForms/departmentsinputform.ui \
     EducationProgressForms/InputForms/groupinputform.ui \
     EducationProgressForms/InputForms/specialiyinputform.ui \
-    EducationProgressForms/InputForms/markinputform.ui
+    EducationProgressForms/InputForms/weekinputform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
