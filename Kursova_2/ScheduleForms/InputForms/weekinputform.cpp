@@ -17,6 +17,8 @@ WeekInputForm::WeekInputForm(QWidget *parent) :
 
 
 
+ //dbHelper.exec("DELETE FROM schedule WHERE  grup = "+QString.)
+
 
 
 }

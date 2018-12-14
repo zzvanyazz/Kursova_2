@@ -58,6 +58,7 @@ DayInputForm::DayInputForm(int groupId, int dayOfWeek, QWidget *parent) :
 
 
 void DayInputForm::PushData(){
+    dbHelper.exec("DELETE FROM schedule WHERE  grup = "+QString().number(currentGroup)+" AND day_of_week = " +QString().number(CurrentDayOfWeek));
     for(int i = 0; i < 5;i++){
         dbHelper.addLesson(currentGroup, CurrentDayOfWeek, i, 
                            Subjects[i]->currentText(),

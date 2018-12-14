@@ -66,6 +66,9 @@ public:
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(label->sizePolicy().hasHeightForWidth());
         label->setSizePolicy(sizePolicy1);
+        QFont font;
+        font.setPointSize(12);
+        label->setFont(font);
 
         horizontalLayout_14->addWidget(label);
 
@@ -83,6 +86,7 @@ public:
         label_2->setObjectName(QStringLiteral("label_2"));
         sizePolicy1.setHeightForWidth(label_2->sizePolicy().hasHeightForWidth());
         label_2->setSizePolicy(sizePolicy1);
+        label_2->setFont(font);
 
         horizontalLayout_15->addWidget(label_2);
 
@@ -100,6 +104,7 @@ public:
         label_3->setObjectName(QStringLiteral("label_3"));
         sizePolicy1.setHeightForWidth(label_3->sizePolicy().hasHeightForWidth());
         label_3->setSizePolicy(sizePolicy1);
+        label_3->setFont(font);
 
         horizontalLayout_16->addWidget(label_3);
 
@@ -117,6 +122,7 @@ public:
         label_4->setObjectName(QStringLiteral("label_4"));
         sizePolicy1.setHeightForWidth(label_4->sizePolicy().hasHeightForWidth());
         label_4->setSizePolicy(sizePolicy1);
+        label_4->setFont(font);
 
         horizontalLayout_17->addWidget(label_4);
 
@@ -134,6 +140,7 @@ public:
         label_5->setObjectName(QStringLiteral("label_5"));
         sizePolicy1.setHeightForWidth(label_5->sizePolicy().hasHeightForWidth());
         label_5->setSizePolicy(sizePolicy1);
+        label_5->setFont(font);
 
         horizontalLayout_18->addWidget(label_5);
 

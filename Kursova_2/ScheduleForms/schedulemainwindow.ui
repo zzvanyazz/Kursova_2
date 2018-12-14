@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>975</width>
-    <height>518</height>
+    <width>1018</width>
+    <height>558</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -38,7 +38,7 @@
          <x>0</x>
          <y>0</y>
          <width>221</width>
-         <height>444</height>
+         <height>484</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -122,6 +122,12 @@
            <property name="topMargin">
             <number>1</number>
            </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
           </layout>
          </widget>
         </item>
@@ -191,6 +197,9 @@
             <property name="text">
              <string>Група:</string>
             </property>
+            <property name="textInteractionFlags">
+             <set>Qt::TextEditable</set>
+            </property>
            </widget>
           </item>
           <item>
@@ -239,14 +248,10 @@
         </widget>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_5">
-         <item>
-          <layout class="QHBoxLayout" name="FirstConteinerForDays"/>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="SecondConteinerForDays"/>
-         </item>
-        </layout>
+        <layout class="QHBoxLayout" name="FirstConteinerForDays"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="SecondConteinerForDays"/>
        </item>
       </layout>
      </widget>
@@ -303,7 +308,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>975</width>
+     <width>1018</width>
      <height>25</height>
     </rect>
    </property>

@@ -48,7 +48,6 @@ public:
     QLabel *name_grup;
     QLabel *labelCurator;
     QLabel *name_curator;
-    QVBoxLayout *verticalLayout_5;
     QHBoxLayout *FirstConteinerForDays;
     QHBoxLayout *SecondConteinerForDays;
     QWidget *FunctionalPanelConteiner;
@@ -65,7 +64,7 @@ public:
     {
         if (ScheduleMainWindow->objectName().isEmpty())
             ScheduleMainWindow->setObjectName(QStringLiteral("ScheduleMainWindow"));
-        ScheduleMainWindow->resize(975, 518);
+        ScheduleMainWindow->resize(1018, 558);
         QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Maximum);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -85,7 +84,7 @@ public:
         scrollArea->setWidgetResizable(true);
         QuickAccessContainer = new QWidget();
         QuickAccessContainer->setObjectName(QStringLiteral("QuickAccessContainer"));
-        QuickAccessContainer->setGeometry(QRect(0, 0, 221, 444));
+        QuickAccessContainer->setGeometry(QRect(0, 0, 221, 484));
         QSizePolicy sizePolicy2(QSizePolicy::Minimum, QSizePolicy::Minimum);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
@@ -135,7 +134,7 @@ public:
         QuickAccessPanel->setSizePolicy(sizePolicy5);
         verticalLayout = new QVBoxLayout(QuickAccessPanel);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        verticalLayout->setContentsMargins(1, 1, -1, -1);
+        verticalLayout->setContentsMargins(1, 1, 1, 1);
 
         verticalLayout_3->addWidget(QuickAccessPanel);
 
@@ -173,6 +172,7 @@ public:
         QFont font;
         font.setPointSize(12);
         labelGrup->setFont(font);
+        labelGrup->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextEditable|Qt::TextSelectableByMouse);
 
         horizontalLayout_3->addWidget(labelGrup);
 
@@ -199,20 +199,15 @@ public:
 
         verticalLayout_6->addWidget(InfoWidget);
 
-        verticalLayout_5 = new QVBoxLayout();
-        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
         FirstConteinerForDays = new QHBoxLayout();
         FirstConteinerForDays->setObjectName(QStringLiteral("FirstConteinerForDays"));
 
-        verticalLayout_5->addLayout(FirstConteinerForDays);
+        verticalLayout_6->addLayout(FirstConteinerForDays);
 
         SecondConteinerForDays = new QHBoxLayout();
         SecondConteinerForDays->setObjectName(QStringLiteral("SecondConteinerForDays"));
 
-        verticalLayout_5->addLayout(SecondConteinerForDays);
-
-
-        verticalLayout_6->addLayout(verticalLayout_5);
+        verticalLayout_6->addLayout(SecondConteinerForDays);
 
 
         horizontalLayout->addWidget(EducationPregressWidget);
@@ -250,7 +245,7 @@ public:
         ScheduleMainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(ScheduleMainWindow);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 975, 25));
+        menubar->setGeometry(QRect(0, 0, 1018, 25));
         ScheduleMainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(ScheduleMainWindow);
         statusbar->setObjectName(QStringLiteral("statusbar"));

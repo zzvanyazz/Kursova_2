@@ -7,6 +7,7 @@
 #include<QDialog>
 #include<QStandardItemModel>
 #include<QSqlQueryModel>
+#include <ScheduleForms/scheduledayshowform.h>
 namespace Ui {
 class ScheduleMainWindow;
 }
@@ -32,6 +33,7 @@ private slots:
 
 
 private:
+    QList<ScheduleDayShowForm*> days;
      QWidget *w2;
     QList<QuickAccessPanelItem*> QuickAccessItems;
      addDataWindow *w;

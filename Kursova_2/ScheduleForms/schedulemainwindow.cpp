@@ -48,6 +48,11 @@ void ScheduleMainWindow::showAddDataWindow(){
 
 
 void ScheduleMainWindow::showTable(int GroupID){
+
+    for(ScheduleDayShowForm *s: days){
+        s->hide();
+    }
+
     ScheduleDayShowForm *monday = new  ScheduleDayShowForm(GroupID, 0);
     ui->FirstConteinerForDays->addWidget(monday);
     ScheduleDayShowForm *tuesday = new  ScheduleDayShowForm(GroupID, 1);
@@ -58,7 +63,14 @@ void ScheduleMainWindow::showTable(int GroupID){
     ui->SecondConteinerForDays->addWidget(thursday);
     ScheduleDayShowForm *friday = new  ScheduleDayShowForm(GroupID, 4);
     ui->SecondConteinerForDays->addWidget(friday);
+
+    days.push_back(monday);
+    days.push_back(tuesday);
+    days.push_back(wednesday);
+    days.push_back(thursday);
+    days.push_back(friday);
 }
+
 
 
 
