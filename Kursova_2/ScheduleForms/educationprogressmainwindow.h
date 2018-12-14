@@ -26,8 +26,8 @@ private slots:
     void addItemQuickAccessPanel();
     void showAddDataWindow();
     void showTable(int);
-void FormEducationChanged();
-    void showMarkInputForm();
+    void FormEducationChanged();
+
 
 
 private:

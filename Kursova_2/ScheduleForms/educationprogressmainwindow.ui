@@ -37,8 +37,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>204</width>
-         <height>452</height>
+         <width>216</width>
+         <height>456</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -235,39 +235,6 @@
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QLabel" name="labelSemester">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Семестр</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QComboBox" name="comboBoxSemester">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <item>
-             <property name="text">
-              <string>1</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>2</string>
-             </property>
-            </item>
-           </widget>
-          </item>
          </layout>
         </widget>
        </item>
@@ -281,8 +248,8 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>548</width>
-            <height>399</height>
+            <width>586</width>
+            <height>411</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -343,29 +310,9 @@
         <widget class="QWidget" name="FunctionalPanel" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_4">
           <item>
-           <widget class="QCheckBox" name="CheckFormOfEducation">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Лише державники</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <widget class="QPushButton" name="ButtonShowAddWindow2">
             <property name="text">
              <string>+</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="ButtonShowInpuMarksForm">
-            <property name="text">
-             <string>Додати оцінки</string>
             </property>
            </widget>
           </item>

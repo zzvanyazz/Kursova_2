@@ -44,13 +44,14 @@ void EducationProgressMainWindow::showAddDataWindow(){
 
 
 }
-void EducationProgressMainWindow::showMarkInputForm(){
-    QMainWindow  *w = new QMainWindow(this);
 
+<<<<<<< HEAD:Kursova_2/ScheduleForms/educationprogressmainwindow.cpp
 
 
 
 }
+=======
+>>>>>>> a90fccbb19efca70feff509f7855cac0ec942d8f:Kursova_2/EducationProgressForms/educationprogressmainwindow.cpp
 
 void EducationProgressMainWindow::showTable(int GroupID){
 
