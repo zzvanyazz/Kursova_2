@@ -43,9 +43,10 @@ public:
     void addGroup(int number, QString name, int spesiality, int curator);
     void addLecturer(QString name, QString surname, QString lastname);
     void addSubject(QString name);
-    void addLesson(int grup, int day_of_week, int number_of_week, int number_of_lesson,
+    void addLesson(int grup, int day_of_week, int number_of_lesson,
                    int subject, int lecturer,  QString classroom);
     void addMark(int student, int grup, bool semester, int subject, int mark);
+    void addScheduleItem(int group, int dayOfWeek, int numberOfLesson, int Subject, int Lecturer, QString auditory);
 
 
     //get------------------------------------------

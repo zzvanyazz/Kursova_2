@@ -27,41 +27,44 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
     databasehelper.cpp \
-    EducationProgressForms/educationprogressmainwindow.cpp \
-    EducationProgressForms/quickaccesspanelitem.cpp \
-    EducationProgressForms/adddatawindow.cpp \
-    EducationProgressForms/InputForms/studenrinputform.cpp \
-    EducationProgressForms/InputForms/lecturerinputform.cpp \
-    EducationProgressForms/InputForms/subjectinputform.cpp \
-    EducationProgressForms/InputForms/departmentsinputform.cpp \
-    EducationProgressForms/InputForms/groupinputform.cpp \
-    EducationProgressForms/InputForms/specialiyinputform.cpp \
-    EducationProgressForms/InputForms/weekinputform.cpp
+    ScheduleForms/educationprogressmainwindow.cpp \
+    ScheduleForms/quickaccesspanelitem.cpp \
+    ScheduleForms/adddatawindow.cpp \
+    ScheduleForms/InputForms/studenrinputform.cpp \
+    ScheduleForms/InputForms/lecturerinputform.cpp \
+    ScheduleForms/InputForms/subjectinputform.cpp \
+    ScheduleForms/InputForms/departmentsinputform.cpp \
+    ScheduleForms/InputForms/groupinputform.cpp \
+    ScheduleForms/InputForms/specialiyinputform.cpp \
+    ScheduleForms/InputForms/weekinputform.cpp \
+    ScheduleForms/InputForms/dayinputform.cpp
 
 HEADERS += \
     databasehelper.h \
-    EducationProgressForms/educationprogressmainwindow.h \
-    EducationProgressForms/quickaccesspanelitem.h \
-    EducationProgressForms/adddatawindow.h \
-    EducationProgressForms/InputForms/studenrinputform.h \
-    EducationProgressForms/InputForms/lecturerinputform.h \
-    EducationProgressForms/InputForms/subjectinputform.h \
-    EducationProgressForms/InputForms/departmentsinputform.h \
-    EducationProgressForms/InputForms/groupinputform.h \
-    EducationProgressForms/InputForms/specialiyinputform.h \
-    EducationProgressForms/InputForms/weekinputform.h
+    ScheduleForms/educationprogressmainwindow.h \
+    ScheduleForms/quickaccesspanelitem.h \
+    ScheduleForms/adddatawindow.h \
+    ScheduleForms/InputForms/studenrinputform.h \
+    ScheduleForms/InputForms/lecturerinputform.h \
+    ScheduleForms/InputForms/subjectinputform.h \
+    ScheduleForms/InputForms/departmentsinputform.h \
+    ScheduleForms/InputForms/groupinputform.h \
+    ScheduleForms/InputForms/specialiyinputform.h \
+    ScheduleForms/InputForms/weekinputform.h \
+    ScheduleForms/InputForms/dayinputform.h
 
 FORMS += \
-    EducationProgressForms/educationprogressmainwindow.ui \
-    EducationProgressForms/quickaccesspanelitem.ui \
-    EducationProgressForms/adddatawindow.ui \
-    EducationProgressForms/InputForms/studenrinputform.ui \
-    EducationProgressForms/InputForms/lecturerinputform.ui \
-    EducationProgressForms/InputForms/subjectinputform.ui \
-    EducationProgressForms/InputForms/departmentsinputform.ui \
-    EducationProgressForms/InputForms/groupinputform.ui \
-    EducationProgressForms/InputForms/specialiyinputform.ui \
-    EducationProgressForms/InputForms/weekinputform.ui
+    ScheduleForms/educationprogressmainwindow.ui \
+    ScheduleForms/quickaccesspanelitem.ui \
+    ScheduleForms/adddatawindow.ui \
+    ScheduleForms/InputForms/studenrinputform.ui \
+    ScheduleForms/InputForms/lecturerinputform.ui \
+    ScheduleForms/InputForms/subjectinputform.ui \
+    ScheduleForms/InputForms/departmentsinputform.ui \
+    ScheduleForms/InputForms/groupinputform.ui \
+    ScheduleForms/InputForms/specialiyinputform.ui \
+    ScheduleForms/InputForms/weekinputform.ui \
+    ScheduleForms/InputForms/dayinputform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

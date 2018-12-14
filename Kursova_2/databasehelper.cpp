@@ -108,14 +108,14 @@ void DatabaseHelper::addSubject(QString name){
     chek(&query);
 }
 
-void DatabaseHelper::addLesson(int grup, int day_of_week, int number_of_week, int number_of_lesson,
+void DatabaseHelper::addLesson(int grup, int day_of_week, int number_of_lesson,
                                int subject, int lecturer,  QString classroom){
     QSqlQuery query(db);
-    query.prepare("INSERT INTO schedule (grup, day_of_week, number_of_week, number_of_lesson, subject, lecturer, classroom) "
-                  "VALUES (:grup, :day_of_week, :number_of_week, :number_of_lesson, :subject, :lecturer, :classroom)");
+    query.prepare("INSERT INTO schedule (grup, day_of_week, number_of_lesson, subject, lecturer, classroom) "
+                  "VALUES (:grup, :day_of_week, :number_of_lesson, :subject, :lecturer, :classroom)");
     query.bindValue(":grup", grup);
     query.bindValue(":day_of_week", day_of_week);
-    query.bindValue(":number_of_week", number_of_week);
+
     query.bindValue(":number_of_lesson", number_of_lesson);
     query.bindValue(":subject", subject);
     query.bindValue(":lecturer", lecturer);
