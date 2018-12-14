@@ -44,6 +44,7 @@ public:
         if (ScheduleDayShowForm->objectName().isEmpty())
             ScheduleDayShowForm->setObjectName(QStringLiteral("ScheduleDayShowForm"));
         ScheduleDayShowForm->resize(472, 336);
+        ScheduleDayShowForm->setStyleSheet(QStringLiteral("background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(80, 80, 80, 255), stop:0.640449 rgba(255, 255, 255, 255));"));
         verticalLayout = new QVBoxLayout(ScheduleDayShowForm);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         DayName = new QLabel(ScheduleDayShowForm);
