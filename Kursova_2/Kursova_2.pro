@@ -27,7 +27,7 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
     databasehelper.cpp \
-    ScheduleForms/educationprogressmainwindow.cpp \
+    ScheduleForms/schedulemainwindow.cpp \
     ScheduleForms/quickaccesspanelitem.cpp \
     ScheduleForms/adddatawindow.cpp \
     ScheduleForms/InputForms/studenrinputform.cpp \
@@ -37,11 +37,12 @@ SOURCES += \
     ScheduleForms/InputForms/groupinputform.cpp \
     ScheduleForms/InputForms/specialiyinputform.cpp \
     ScheduleForms/InputForms/weekinputform.cpp \
-    ScheduleForms/InputForms/dayinputform.cpp
+    ScheduleForms/InputForms/dayinputform.cpp \
+    ScheduleForms/scheduledayshowform.cpp
 
 HEADERS += \
     databasehelper.h \
-    ScheduleForms/educationprogressmainwindow.h \
+    ScheduleForms/schedulemainwindow.h \
     ScheduleForms/quickaccesspanelitem.h \
     ScheduleForms/adddatawindow.h \
     ScheduleForms/InputForms/studenrinputform.h \
@@ -51,10 +52,11 @@ HEADERS += \
     ScheduleForms/InputForms/groupinputform.h \
     ScheduleForms/InputForms/specialiyinputform.h \
     ScheduleForms/InputForms/weekinputform.h \
-    ScheduleForms/InputForms/dayinputform.h
+    ScheduleForms/InputForms/dayinputform.h \
+    ScheduleForms/scheduledayshowform.h
 
 FORMS += \
-    ScheduleForms/educationprogressmainwindow.ui \
+    ScheduleForms/schedulemainwindow.ui \
     ScheduleForms/quickaccesspanelitem.ui \
     ScheduleForms/adddatawindow.ui \
     ScheduleForms/InputForms/studenrinputform.ui \
@@ -64,7 +66,8 @@ FORMS += \
     ScheduleForms/InputForms/groupinputform.ui \
     ScheduleForms/InputForms/specialiyinputform.ui \
     ScheduleForms/InputForms/weekinputform.ui \
-    ScheduleForms/InputForms/dayinputform.ui
+    ScheduleForms/InputForms/dayinputform.ui \
+    ScheduleForms/scheduledayshowform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -111,9 +111,9 @@ public:
     void retranslateUi(QWidget *QuickAccessPanelItem)
     {
         QuickAccessPanelItem->setWindowTitle(QApplication::translate("QuickAccessPanelItem", "Form", nullptr));
-        ButtonBack->setText(QString());
+        ButtonBack->setText(QApplication::translate("QuickAccessPanelItem", "<-", nullptr));
         Name->setText(QApplication::translate("QuickAccessPanelItem", "text", nullptr));
-        ButtonRemove->setText(QString());
+        ButtonRemove->setText(QApplication::translate("QuickAccessPanelItem", "-", nullptr));
     } // retranslateUi
 
 };

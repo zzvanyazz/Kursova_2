@@ -1,18 +1,16 @@
 /********************************************************************************
-** Form generated from reading UI file 'educationprogressmainwindow.ui'
+** Form generated from reading UI file 'schedulemainwindow.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef UI_EDUCATIONPROGRESSMAINWINDOW_H
-#define UI_EDUCATIONPROGRESSMAINWINDOW_H
+#ifndef UI_SCHEDULEMAINWINDOW_H
+#define UI_SCHEDULEMAINWINDOW_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QCheckBox>
-#include <QtWidgets/QComboBox>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -27,7 +25,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_EducationProgressMainWindow
+class Ui_ScheduleMainWindow
 {
 public:
     QWidget *centralwidget;
@@ -50,36 +48,30 @@ public:
     QLabel *name_grup;
     QLabel *labelCurator;
     QLabel *name_curator;
-    QLabel *labelSemester;
-    QComboBox *comboBoxSemester;
-    QScrollArea *scrollArea_2;
-    QWidget *scrollAreaWidgetContents;
     QVBoxLayout *verticalLayout_5;
-    QWidget *TableConteiner;
-    QHBoxLayout *horizontalLayout_4;
-    QSpacerItem *verticalSpacer_3;
+    QHBoxLayout *FirstConteinerForDays;
+    QHBoxLayout *SecondConteinerForDays;
     QWidget *FunctionalPanelConteiner;
     QVBoxLayout *verticalLayout_2;
     QWidget *FunctionalPanel;
     QVBoxLayout *verticalLayout_4;
-    QCheckBox *CheckFormOfEducation;
-    QPushButton *ButtonShowAddWindow2;
-    QPushButton *ButtonShowInpuMarksForm;
+    QPushButton *ButtonShowAddWindow;
+    QPushButton *buttonAddSchedule;
     QSpacerItem *verticalSpacer_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
-    void setupUi(QMainWindow *EducationProgressMainWindow)
+    void setupUi(QMainWindow *ScheduleMainWindow)
     {
-        if (EducationProgressMainWindow->objectName().isEmpty())
-            EducationProgressMainWindow->setObjectName(QStringLiteral("EducationProgressMainWindow"));
-        EducationProgressMainWindow->resize(975, 518);
+        if (ScheduleMainWindow->objectName().isEmpty())
+            ScheduleMainWindow->setObjectName(QStringLiteral("ScheduleMainWindow"));
+        ScheduleMainWindow->resize(975, 518);
         QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Maximum);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(EducationProgressMainWindow->sizePolicy().hasHeightForWidth());
-        EducationProgressMainWindow->setSizePolicy(sizePolicy);
-        centralwidget = new QWidget(EducationProgressMainWindow);
+        sizePolicy.setHeightForWidth(ScheduleMainWindow->sizePolicy().hasHeightForWidth());
+        ScheduleMainWindow->setSizePolicy(sizePolicy);
+        centralwidget = new QWidget(ScheduleMainWindow);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         horizontalLayout = new QHBoxLayout(centralwidget);
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
@@ -93,7 +85,7 @@ public:
         scrollArea->setWidgetResizable(true);
         QuickAccessContainer = new QWidget();
         QuickAccessContainer->setObjectName(QStringLiteral("QuickAccessContainer"));
-        QuickAccessContainer->setGeometry(QRect(0, 0, 204, 452));
+        QuickAccessContainer->setGeometry(QRect(0, 0, 221, 444));
         QSizePolicy sizePolicy2(QSizePolicy::Minimum, QSizePolicy::Minimum);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
@@ -204,53 +196,23 @@ public:
 
         horizontalLayout_3->addWidget(name_curator);
 
-        labelSemester = new QLabel(InfoWidget);
-        labelSemester->setObjectName(QStringLiteral("labelSemester"));
-        sizePolicy7.setHeightForWidth(labelSemester->sizePolicy().hasHeightForWidth());
-        labelSemester->setSizePolicy(sizePolicy7);
-
-        horizontalLayout_3->addWidget(labelSemester);
-
-        comboBoxSemester = new QComboBox(InfoWidget);
-        comboBoxSemester->addItem(QString());
-        comboBoxSemester->addItem(QString());
-        comboBoxSemester->setObjectName(QStringLiteral("comboBoxSemester"));
-        QSizePolicy sizePolicy8(QSizePolicy::Maximum, QSizePolicy::Fixed);
-        sizePolicy8.setHorizontalStretch(0);
-        sizePolicy8.setVerticalStretch(0);
-        sizePolicy8.setHeightForWidth(comboBoxSemester->sizePolicy().hasHeightForWidth());
-        comboBoxSemester->setSizePolicy(sizePolicy8);
-
-        horizontalLayout_3->addWidget(comboBoxSemester);
-
 
         verticalLayout_6->addWidget(InfoWidget);
 
-        scrollArea_2 = new QScrollArea(EducationPregressWidget);
-        scrollArea_2->setObjectName(QStringLiteral("scrollArea_2"));
-        scrollArea_2->setWidgetResizable(true);
-        scrollAreaWidgetContents = new QWidget();
-        scrollAreaWidgetContents->setObjectName(QStringLiteral("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 548, 399));
-        verticalLayout_5 = new QVBoxLayout(scrollAreaWidgetContents);
+        verticalLayout_5 = new QVBoxLayout();
         verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
-        TableConteiner = new QWidget(scrollAreaWidgetContents);
-        TableConteiner->setObjectName(QStringLiteral("TableConteiner"));
-        sizePolicy3.setHeightForWidth(TableConteiner->sizePolicy().hasHeightForWidth());
-        TableConteiner->setSizePolicy(sizePolicy3);
-        horizontalLayout_4 = new QHBoxLayout(TableConteiner);
-        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
-        horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
+        FirstConteinerForDays = new QHBoxLayout();
+        FirstConteinerForDays->setObjectName(QStringLiteral("FirstConteinerForDays"));
 
-        verticalLayout_5->addWidget(TableConteiner);
+        verticalLayout_5->addLayout(FirstConteinerForDays);
 
-        verticalSpacer_3 = new QSpacerItem(20, 367, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        SecondConteinerForDays = new QHBoxLayout();
+        SecondConteinerForDays->setObjectName(QStringLiteral("SecondConteinerForDays"));
 
-        verticalLayout_5->addItem(verticalSpacer_3);
+        verticalLayout_5->addLayout(SecondConteinerForDays);
 
-        scrollArea_2->setWidget(scrollAreaWidgetContents);
 
-        verticalLayout_6->addWidget(scrollArea_2);
+        verticalLayout_6->addLayout(verticalLayout_5);
 
 
         horizontalLayout->addWidget(EducationPregressWidget);
@@ -265,25 +227,15 @@ public:
         FunctionalPanel->setObjectName(QStringLiteral("FunctionalPanel"));
         verticalLayout_4 = new QVBoxLayout(FunctionalPanel);
         verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
-        CheckFormOfEducation = new QCheckBox(FunctionalPanel);
-        CheckFormOfEducation->setObjectName(QStringLiteral("CheckFormOfEducation"));
-        QSizePolicy sizePolicy9(QSizePolicy::Minimum, QSizePolicy::Fixed);
-        sizePolicy9.setHorizontalStretch(0);
-        sizePolicy9.setVerticalStretch(0);
-        sizePolicy9.setHeightForWidth(CheckFormOfEducation->sizePolicy().hasHeightForWidth());
-        CheckFormOfEducation->setSizePolicy(sizePolicy9);
+        ButtonShowAddWindow = new QPushButton(FunctionalPanel);
+        ButtonShowAddWindow->setObjectName(QStringLiteral("ButtonShowAddWindow"));
 
-        verticalLayout_4->addWidget(CheckFormOfEducation);
+        verticalLayout_4->addWidget(ButtonShowAddWindow);
 
-        ButtonShowAddWindow2 = new QPushButton(FunctionalPanel);
-        ButtonShowAddWindow2->setObjectName(QStringLiteral("ButtonShowAddWindow2"));
+        buttonAddSchedule = new QPushButton(FunctionalPanel);
+        buttonAddSchedule->setObjectName(QStringLiteral("buttonAddSchedule"));
 
-        verticalLayout_4->addWidget(ButtonShowAddWindow2);
-
-        ButtonShowInpuMarksForm = new QPushButton(FunctionalPanel);
-        ButtonShowInpuMarksForm->setObjectName(QStringLiteral("ButtonShowInpuMarksForm"));
-
-        verticalLayout_4->addWidget(ButtonShowInpuMarksForm);
+        verticalLayout_4->addWidget(buttonAddSchedule);
 
 
         verticalLayout_2->addWidget(FunctionalPanel);
@@ -295,43 +247,38 @@ public:
 
         horizontalLayout->addWidget(FunctionalPanelConteiner);
 
-        EducationProgressMainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(EducationProgressMainWindow);
+        ScheduleMainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(ScheduleMainWindow);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 975, 20));
-        EducationProgressMainWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(EducationProgressMainWindow);
+        menubar->setGeometry(QRect(0, 0, 975, 25));
+        ScheduleMainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(ScheduleMainWindow);
         statusbar->setObjectName(QStringLiteral("statusbar"));
-        EducationProgressMainWindow->setStatusBar(statusbar);
+        ScheduleMainWindow->setStatusBar(statusbar);
 
-        retranslateUi(EducationProgressMainWindow);
+        retranslateUi(ScheduleMainWindow);
 
-        QMetaObject::connectSlotsByName(EducationProgressMainWindow);
+        QMetaObject::connectSlotsByName(ScheduleMainWindow);
     } // setupUi
 
-    void retranslateUi(QMainWindow *EducationProgressMainWindow)
+    void retranslateUi(QMainWindow *ScheduleMainWindow)
     {
-        EducationProgressMainWindow->setWindowTitle(QApplication::translate("EducationProgressMainWindow", "MainWindow", nullptr));
-        ButtonAddPanelItem->setText(QApplication::translate("EducationProgressMainWindow", "+", nullptr));
-        labelGrup->setText(QApplication::translate("EducationProgressMainWindow", "\320\223\321\200\321\203\320\277\320\260:", nullptr));
+        ScheduleMainWindow->setWindowTitle(QApplication::translate("ScheduleMainWindow", "MainWindow", nullptr));
+        ButtonAddPanelItem->setText(QApplication::translate("ScheduleMainWindow", "+", nullptr));
+        labelGrup->setText(QApplication::translate("ScheduleMainWindow", "\320\223\321\200\321\203\320\277\320\260:", nullptr));
         name_grup->setText(QString());
-        labelCurator->setText(QApplication::translate("EducationProgressMainWindow", "\320\232\321\203\321\200\320\260\321\202\320\276\321\200:", nullptr));
+        labelCurator->setText(QApplication::translate("ScheduleMainWindow", "\320\232\321\203\321\200\320\260\321\202\320\276\321\200:", nullptr));
         name_curator->setText(QString());
-        labelSemester->setText(QApplication::translate("EducationProgressMainWindow", "\320\241\320\265\320\274\320\265\321\201\321\202\321\200", nullptr));
-        comboBoxSemester->setItemText(0, QApplication::translate("EducationProgressMainWindow", "1", nullptr));
-        comboBoxSemester->setItemText(1, QApplication::translate("EducationProgressMainWindow", "2", nullptr));
-
-        CheckFormOfEducation->setText(QApplication::translate("EducationProgressMainWindow", "\320\233\320\270\321\210\320\265 \320\264\320\265\321\200\320\266\320\260\320\262\320\275\320\270\320\272\320\270", nullptr));
-        ButtonShowAddWindow2->setText(QApplication::translate("EducationProgressMainWindow", "+", nullptr));
-        ButtonShowInpuMarksForm->setText(QApplication::translate("EducationProgressMainWindow", "\320\224\320\276\320\264\320\260\321\202\320\270 \320\276\321\206\321\226\320\275\320\272\320\270", nullptr));
+        ButtonShowAddWindow->setText(QApplication::translate("ScheduleMainWindow", "+", nullptr));
+        buttonAddSchedule->setText(QApplication::translate("ScheduleMainWindow", "\320\224\320\276\320\264\320\260\321\202\320\270 \321\200\320\276\320\267\320\272\320\273\320\260\320\264", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class EducationProgressMainWindow: public Ui_EducationProgressMainWindow {};
+    class ScheduleMainWindow: public Ui_ScheduleMainWindow {};
 } // namespace Ui
 
 QT_END_NAMESPACE
 
-#endif // UI_EDUCATIONPROGRESSMAINWINDOW_H
+#endif // UI_SCHEDULEMAINWINDOW_H

@@ -334,19 +334,19 @@ public:
         label_3->setText(QApplication::translate("DayInputForm", "2", nullptr));
         label_9->setText(QApplication::translate("DayInputForm", "\320\237\321\200\320\265\320\264\320\274\320\265\321\202", nullptr));
         label_13->setText(QApplication::translate("DayInputForm", "\320\222\320\270\320\272\320\273\320\260\320\264\320\260\321\207", nullptr));
-        label_17->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\273\320\276\321\200\321\226\321\217", nullptr));
+        label_17->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\276\321\200\321\226\321\217", nullptr));
         label_4->setText(QApplication::translate("DayInputForm", "3", nullptr));
         label_10->setText(QApplication::translate("DayInputForm", "\320\237\321\200\320\265\320\264\320\274\320\265\321\202", nullptr));
         label_14->setText(QApplication::translate("DayInputForm", "\320\222\320\270\320\272\320\273\320\260\320\264\320\260\321\207", nullptr));
-        label_18->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\273\320\276\321\200\321\226\321\217", nullptr));
+        label_18->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\276\321\200\321\226\321\217", nullptr));
         label_5->setText(QApplication::translate("DayInputForm", "4", nullptr));
         label_11->setText(QApplication::translate("DayInputForm", "\320\237\321\200\320\265\320\264\320\274\320\265\321\202", nullptr));
         label_15->setText(QApplication::translate("DayInputForm", "\320\222\320\270\320\272\320\273\320\260\320\264\320\260\321\207", nullptr));
-        label_19->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\273\320\276\321\200\321\226\321\217", nullptr));
+        label_19->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\276\321\200\321\226\321\217", nullptr));
         label_6->setText(QApplication::translate("DayInputForm", "5", nullptr));
         label_12->setText(QApplication::translate("DayInputForm", "\320\237\321\200\320\265\320\264\320\274\320\265\321\202", nullptr));
         label_16->setText(QApplication::translate("DayInputForm", "\320\222\320\270\320\272\320\273\320\260\320\264\320\260\321\207", nullptr));
-        label_20->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\273\320\276\321\200\321\226\321\217", nullptr));
+        label_20->setText(QApplication::translate("DayInputForm", "\320\220\321\203\320\264\320\270\321\202\320\276\321\200\321\226\321\217", nullptr));
     } // retranslateUi
 
 };

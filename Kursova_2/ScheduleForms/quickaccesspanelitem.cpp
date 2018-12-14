@@ -4,7 +4,7 @@
 #include <QPushButton>
 #include <QDebug>
 #include <QMainWindow>
-#include <ScheduleForms/educationprogressmainwindow.h>
+#include <ScheduleForms/schedulemainwindow.h>
 #include <QMessageBox>
 
 QuickAccessPanelItem::QuickAccessPanelItem(QString name,  Status _status, int thisID, QWidget *parent) :
@@ -33,7 +33,7 @@ void QuickAccessPanelItem::Init(QString name, Status _status, int _thisID){
     case college:
 
         query =  dbHelper.getDepartment();
-
+    if(!query->first()){ hide();}
 
         break;
 
@@ -137,7 +137,6 @@ parentList.pop();
 
 
 }
-
 
 
 void QuickAccessPanelItem::changeChild(){

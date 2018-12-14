@@ -1,7 +1,7 @@
 INPUT(
 ./debug\main.o
 ./debug\databasehelper.o
-./debug\educationprogressmainwindow.o
+./debug\schedulemainwindow.o
 ./debug\quickaccesspanelitem.o
 ./debug\adddatawindow.o
 ./debug\studenrinputform.o
@@ -12,7 +12,8 @@ INPUT(
 ./debug\specialiyinputform.o
 ./debug\weekinputform.o
 ./debug\dayinputform.o
-./debug\moc_educationprogressmainwindow.o
+./debug\scheduledayshowform.o
+./debug\moc_schedulemainwindow.o
 ./debug\moc_quickaccesspanelitem.o
 ./debug\moc_adddatawindow.o
 ./debug\moc_studenrinputform.o
@@ -23,4 +24,5 @@ INPUT(
 ./debug\moc_specialiyinputform.o
 ./debug\moc_weekinputform.o
 ./debug\moc_dayinputform.o
+./debug\moc_scheduledayshowform.o
 );

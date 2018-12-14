@@ -2,12 +2,13 @@
 #include "ui_dayinputform.h"
 #include <QSqlQuery>
 #include <QDebug>
-DayInputForm::DayInputForm(int dayOfWeek, QWidget *parent) :
+DayInputForm::DayInputForm(int groupId, int dayOfWeek, QWidget *parent) :
     QWidget(parent),
     ui(new Ui::DayInputForm)
 {
     
     ui->setupUi(this);
+    currentGroup=  groupId ;
     CurrentDayOfWeek = dayOfWeek;
     Subjects[0] = ui->comboBoxFirstSubject;
     Subjects[1] = ui->comboBoxSecondSubject;
@@ -40,10 +41,11 @@ DayInputForm::DayInputForm(int dayOfWeek, QWidget *parent) :
             qDebug() << "1";
         }while(sub->next());
         do{
-            Lecturers[i]->addItem(lec->value((int)DatabaseHelper::ColumsOfLecturers::name).toString()+ " "
-                                  +lec->value((int)DatabaseHelper::ColumsOfLecturers::surname).toString(),
-                                 sub->value((int)DatabaseHelper::ColumsOfLecturers::ID));
-            qDebug() << "2";
+            Lecturers[i]->addItem(lec->value((int)DatabaseHelper::ColumsOfLecturers::surname).toString()+ " "
+                                  +lec->value((int)DatabaseHelper::ColumsOfLecturers::name).toString() + " "
+                                  +lec->value((int)DatabaseHelper::ColumsOfLecturers::lastname).toString(),
+                                 lec->value((int)DatabaseHelper::ColumsOfLecturers::ID));
+            qDebug() << sub->value((int)DatabaseHelper::ColumsOfLecturers::ID).toString()+"!@@@@";
 
         }while(lec->next());
         sub->first();
@@ -58,10 +60,11 @@ DayInputForm::DayInputForm(int dayOfWeek, QWidget *parent) :
 void DayInputForm::PushData(){
     for(int i = 0; i < 5;i++){
         dbHelper.addLesson(currentGroup, CurrentDayOfWeek, i, 
-                           Subjects[i]->currentData().toInt(), 
-                           Lecturers[i]->currentData().toInt(), 
+                           Subjects[i]->currentText(),
+                           Lecturers[i]->currentText(),
                            Auditory[i]->text());
     }
+
 }
 
 

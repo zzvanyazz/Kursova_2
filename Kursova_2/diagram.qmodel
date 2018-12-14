@@ -50,7 +50,7 @@
                          <object>{8a21f6bc-bec9-4ef8-99ae-2c2f9b9a98b9}</object>
                          <context>Kursova</context>
                          <name>DatabaseHelper</name>
-                         <pos>x:2170;y:1035</pos>
+                         <pos>x:1360;y:870</pos>
                          <rect>x:-345;y:-280;w:690;h:560</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -73,7 +73,7 @@
                          <object>{30112dfd-795b-4443-984f-e494e45cce0f}</object>
                          <context>EducationProgressForms</context>
                          <name>EducationProgressMainWindow</name>
-                         <pos>x:885;y:1645</pos>
+                         <pos>x:1760;y:1545</pos>
                          <rect>x:-175;y:-130;w:350;h:260</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
@@ -97,7 +97,7 @@
                          <object>{8f338dcb-c356-4e17-919c-4bd4757a658c}</object>
                          <context>InputForms</context>
                          <name>DepartmentsInputForm</name>
-                         <pos>x:1815;y:370</pos>
+                         <pos>x:2395;y:375</pos>
                          <rect>x:-155;y:-90;w:310;h:180</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -120,7 +120,7 @@
                          <object>{2f3f1b12-1137-4626-81ca-ceefc91de7ca}</object>
                          <context>InputForms</context>
                          <name>GroupInputForm</name>
-                         <pos>x:2140;y:370</pos>
+                         <pos>x:2210;y:185</pos>
                          <rect>x:-140;y:-90;w:280;h:180</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
@@ -144,7 +144,7 @@
                          <object>{9cbd11a2-abdb-4ef1-ba62-a73f6a34b35b}</object>
                          <context>InputForms</context>
                          <name>LecturerInputForm</name>
-                         <pos>x:795;y:645</pos>
+                         <pos>x:2610;y:910</pos>
                          <rect>x:-145;y:-75;w:290;h:150</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -167,7 +167,7 @@
                          <object>{f2af67c1-fe53-47d8-a190-4237a503e63b}</object>
                          <context>InputForms</context>
                          <name>MarkInputForm</name>
-                         <pos>x:795;y:915</pos>
+                         <pos>x:2385;y:1100</pos>
                          <rect>x:-145;y:-95;w:290;h:190</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
@@ -191,7 +191,7 @@
                          <object>{44b3d5f0-5389-42d5-ba0c-bf41265e4673}</object>
                          <context>InputForms</context>
                          <name>SpecialiyInputForm</name>
-                         <pos>x:1485;y:370</pos>
+                         <pos>x:2215;y:1295</pos>
                          <rect>x:-145;y:-90;w:290;h:180</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
@@ -215,7 +215,7 @@
                          <object>{e8645451-68b6-43b0-b07c-eeef05f4cf80}</object>
                          <context>InputForms</context>
                          <name>StudenrInputForm</name>
-                         <pos>x:795;y:1190</pos>
+                         <pos>x:2610;y:750</pos>
                          <rect>x:-145;y:-75;w:290;h:150</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -238,7 +238,7 @@
                          <object>{28afed55-aa20-41dd-b39f-f9f15a0ef893}</object>
                          <context>InputForms</context>
                          <name>SubjectInputForm</name>
-                         <pos>x:1165;y:370</pos>
+                         <pos>x:2610;y:570</pos>
                          <rect>x:-145;y:-90;w:290;h:180</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -261,7 +261,7 @@
                          <object>{8e2bfd57-7ba8-440c-b6dd-e91860bc1e4b}</object>
                          <context>EducationProgressForms</context>
                          <name>addDataWindow</name>
-                         <pos>x:1280;y:1265</pos>
+                         <pos>x:1760;y:355</pos>
                          <rect>x:-140;y:-65;w:280;h:130</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -284,7 +284,7 @@
                          <object>{43de2b08-4050-4b98-b212-c738f78e11ce}</object>
                          <context>EducationProgressForms</context>
                          <name>QuickAccessPanelItem</name>
-                         <pos>x:1490;y:1740</pos>
+                         <pos>x:2245;y:1545</pos>
                          <rect>x:-250;y:-140;w:500;h:280</rect>
                          <visual-role>0</visual-role>
                          <visual-emphasized>true</visual-emphasized>
@@ -770,7 +770,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1544700672565</last-modified>
+                  <last-modified>1544781714900</last-modified>
                   <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -1464,14 +1464,14 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{c6c41613-aacd-44d0-9f9a-cc02e577c1cd}</uid>
+                               <uid>{cf7def1b-499c-4bf0-a26e-4ed0bcf9db49}</uid>
                                <type>2</type>
                                <declaration>void chek(QSqlQuery*)</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{95fd3bde-e607-4691-b4d8-27d649f99a96}</uid>
+                               <uid>{d3a757db-d23f-430a-9db3-79c9889adf5a}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlDatabase db</declaration>
@@ -1479,7 +1479,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{faf23c51-2f53-47fe-ace9-744b7b762282}</uid>
+                               <uid>{be9dc2a1-5353-4374-990c-ff8fc0f00298}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfDepartment        {ID, name}</declaration>
@@ -1487,7 +1487,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{117331f4-fa9b-433d-ae88-ed3952383c0c}</uid>
+                               <uid>{69952c71-2693-48f5-9ba8-951d12097d59}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfSpesiality        {ID, department, name}</declaration>
@@ -1495,7 +1495,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5efaa8a4-81fc-4bcc-b3ec-2fd842b65d3e}</uid>
+                               <uid>{cf511353-e362-454d-af88-2aea761d705c}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfSubject           {ID, name}</declaration>
@@ -1503,7 +1503,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8278ffe0-9459-4563-85f5-8f5c5a9be0e3}</uid>
+                               <uid>{fbe401db-74b8-4049-a4a1-1507c78016f7}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfGroup             {ID, number, name, spesiality, curator}</declaration>
@@ -1511,7 +1511,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{301efafa-3e24-493d-b729-38c6f247046c}</uid>
+                               <uid>{1802d77f-21ca-40a6-93eb-a58611a10391}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfStudent           {ID, group, name, surname ,lastname , form_of_education}</declaration>
@@ -1519,7 +1519,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{eefc049f-1351-4f34-8f54-a6365840ed14}</uid>
+                               <uid>{76eb6c92-56eb-4550-9d52-475939706927}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumsOfLecturers          {ID, name, surname, lastname}</declaration>
@@ -1527,7 +1527,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{6fcf5b6c-f244-4278-b353-a20508ade2fd}</uid>
+                               <uid>{2878842f-5052-46dc-8eaa-173d2fbb0487}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfSchedule          {ID, group, day_of_week, number_of_week, number_of_lesson, subject, lecturer, classroom}</declaration>
@@ -1535,7 +1535,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{aa7e41e2-cb90-417c-bd5f-4e139e57d0e5}</uid>
+                               <uid>{b506411c-42b6-4885-8842-03d75ef2efe8}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum class ColumnsOfEducationProgress {ID, student, group, semester, subject, form_of_control, lecturer, mark}</declaration>
@@ -1543,7 +1543,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{515e32d5-104e-4190-bb81-a4aba2e0ef59}</uid>
+                               <uid>{2096078a-782c-4d62-8fea-88a394718618}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>DatabaseHelper()</declaration>
@@ -1551,7 +1551,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a1d84cd9-b350-4f4c-bafa-8045d1f7f632}</uid>
+                               <uid>{b6e2bd7c-fad1-492d-b623-6bbdbd68c2f5}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~DatabaseHelper()</declaration>
@@ -1559,7 +1559,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bba4d347-c331-4e3e-b4b2-7b163b3c7751}</uid>
+                               <uid>{1fd0ce80-d40b-44a1-9d96-1e9aa17505b6}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>bool exec(QString)</declaration>
@@ -1567,7 +1567,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c09b14b8-41ce-47a6-9e05-3e67c3908cbc}</uid>
+                               <uid>{7d2ea33e-a887-4a8c-a722-70b2da034638}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addDepartment(QString name)</declaration>
@@ -1575,7 +1575,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e40df627-4304-4803-b616-c0d9a44baa20}</uid>
+                               <uid>{35f58697-0a97-4f57-bbee-356ea301a0b2}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addStudent(int grup, QString name, QString surname, QString lastname,  bool form_of_education)</declaration>
@@ -1583,7 +1583,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{6a39c0a6-ef89-4a6b-9dd2-34cccfab584f}</uid>
+                               <uid>{5647a96e-46af-4ba0-a2d4-a5eb1d99e86b}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addSpesialty(int department, QString name)</declaration>
@@ -1591,7 +1591,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{261b77c6-a71b-4a75-8342-8894ce4933d8}</uid>
+                               <uid>{353ccddb-fa60-464b-a6a5-2d7070d4ee3a}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addGroup(int number, QString name, int spesiality, int curator)</declaration>
@@ -1599,7 +1599,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e2773e93-85dc-423d-b128-7db9b559ef08}</uid>
+                               <uid>{a4cc0775-c1c4-409b-8b1c-5c7b6ab63979}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addLecturer(QString name, QString surname, QString lastname)</declaration>
@@ -1607,7 +1607,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{47b33ade-0704-4ff6-80ca-7901bd9ed27e}</uid>
+                               <uid>{cec6970d-4b07-4ace-9d79-ef4f816bc0d2}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addSubject(QString name)</declaration>
@@ -1615,7 +1615,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{b0e12708-703e-4775-bdd2-702a3d12d182}</uid>
+                               <uid>{73449802-bc29-442f-b42e-9f7606c96bf8}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addLesson(int grup, int day_of_week, int number_of_week, int number_of_lesson,                    int subject, int lecturer,  QString classroom)</declaration>
@@ -1623,7 +1623,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{cc721d97-2790-4900-ba1f-c1f918d57149}</uid>
+                               <uid>{118bce24-b0a0-41ab-b149-6c96a7d6fb0e}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void addMark(int student, int grup, bool semester, int subject, int mark)</declaration>
@@ -1631,7 +1631,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{fa0e11bf-51cd-42cb-9c5c-a2f12e4946b3}</uid>
+                               <uid>{1cdcdaa4-1c59-4a7f-b6f6-29b3826f5508}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getDepartment(QString WHERE = &quot;1&quot;)</declaration>
@@ -1639,7 +1639,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{f0527a64-0c7c-4e1d-805b-4e87f7375105}</uid>
+                               <uid>{c41f12bb-eafb-44ff-82c5-c5d2e5260565}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getStudent(QString WHERE = &quot;1&quot;)</declaration>
@@ -1647,7 +1647,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{12575482-1456-423c-a62a-a1727d3f4ea7}</uid>
+                               <uid>{e6acc291-ab65-4700-b25e-e8fee5a449fd}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getSpesialty(QString WHERE= &quot;1&quot;)</declaration>
@@ -1655,7 +1655,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bc616b96-fd25-4f4c-b22b-9528fa72016e}</uid>
+                               <uid>{f5da53a8-d8c5-4fbe-a55f-a979adfcaeea}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getGroup(QString WHERE= &quot;1&quot;)</declaration>
@@ -1663,7 +1663,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{b41a258c-63c9-4f4c-9ba5-1ec3e8224edd}</uid>
+                               <uid>{314503ee-3771-442a-bbcc-691ad031e277}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getLecturer(QString WHERE= &quot;1&quot;)</declaration>
@@ -1671,7 +1671,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ee8c822f-89bc-4cc0-b57c-425a806a3aaa}</uid>
+                               <uid>{c673c4b6-cb9d-4339-8837-c8d2f440a434}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getSubject(QString WHERE= &quot;1&quot;)</declaration>
@@ -1679,7 +1679,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{38dec0fc-c804-4e11-ba24-d80fa8e24349}</uid>
+                               <uid>{ec2324f7-9d79-4b5f-a280-bfc115a936dd}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getLesson(QString WHERE= &quot;1&quot;)</declaration>
@@ -1687,7 +1687,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5b8cb36d-4e47-4008-9540-03e8605807eb}</uid>
+                               <uid>{a84c072a-da73-4dce-8cb9-c1faff402d40}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>QSqlQuery* getMark(QString WHERE= &quot;1&quot;)</declaration>
@@ -1695,7 +1695,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{59d5f674-8f8c-456d-8ac9-fc97e085709b}</uid>
+                               <uid>{5d238bb7-96b0-4ec3-a29c-e3ce754099c1}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setDepartment(int  ID, QString name)</declaration>
@@ -1703,7 +1703,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8157e298-04f3-4121-8b85-4c9839e47d2a}</uid>
+                               <uid>{024cd1fd-df6e-41ce-9c3d-5801b2885b59}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setStudent(int ID, int grup, QString name, QString surname, QString lastname,  bool form_of_education)</declaration>
@@ -1711,7 +1711,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{11a8dd29-1e78-4dc9-b6f1-ae1ff3a34f23}</uid>
+                               <uid>{e7920619-032d-46b0-9cbd-4c439149b94f}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setSpesialty(int ID, int department, QString name)</declaration>
@@ -1719,7 +1719,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{d4a76f45-d806-409f-a554-893b7f25f122}</uid>
+                               <uid>{ab8f806c-ff21-4b76-b9c9-3987cc2528b0}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setGroup(int ID, int number, QString name, int spesiality, int curator)</declaration>
@@ -1727,7 +1727,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{001e0545-8890-4b31-a800-daec9fa85d74}</uid>
+                               <uid>{01c0ad4a-5e10-431f-9d76-f23b320fa861}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setLecturer(int ID, QString name, QString surname, QString lastname)</declaration>
@@ -1735,7 +1735,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{48dc6b15-943d-4981-b95a-eb101539b2c6}</uid>
+                               <uid>{a3134735-5b3c-454b-a838-63c9398bf150}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setSubject(int ID, QString name)</declaration>
@@ -1743,7 +1743,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{b9c8f226-734f-4fc1-a966-639f7f749c8c}</uid>
+                               <uid>{2581402d-6a2f-46fa-8d22-4681b7b341f7}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setLesson(int ID , int grup, int day_of_week, int number_of_week, int number_of_lesson,                    int subject, int lecturer,  QString classroom)</declaration>
@@ -1751,7 +1751,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{3506968d-da08-4382-b89e-fe55a01c7873}</uid>
+                               <uid>{2a12498e-885c-40c6-871f-9bbe6c8626f0}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void setMark(int ID, int student, int grup, bool semester, int subject, int mark)</declaration>
@@ -1939,14 +1939,14 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{7c33fd6b-07d1-4759-a4e3-b9b4db0d5182}</uid>
+                               <uid>{21ad1b3e-cc4c-4dce-9d05-186c2e129e15}</uid>
                                <type>1</type>
                                <declaration>int currentGroup</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5c6a9546-d353-4885-94a0-e0386d68f66d}</uid>
+                               <uid>{94a9d87e-b787-4d08-aff2-25de40f45c11}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit EducationProgressMainWindow(QWidget *parent = nullptr)</declaration>
@@ -1954,7 +1954,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{46305a28-07e1-4197-a744-4cac660043c3}</uid>
+                               <uid>{4bcf7ee3-db65-4482-b968-a7f2a3bcfc1d}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~EducationProgressMainWindow()</declaration>
@@ -1962,7 +1962,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{3ffc109c-8702-4708-9aeb-b3c814c9d335}</uid>
+                               <uid>{176f1bd6-b944-466c-9aeb-97c376df20ba}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void addItemQuickAccessPanel()</declaration>
@@ -1970,7 +1970,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{99393b2d-dd89-4775-b495-c3a3ec9d2b3e}</uid>
+                               <uid>{e92cc9bb-48d4-467b-b096-119ab9b3b9ed}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void showAddDataWindow()</declaration>
@@ -1978,7 +1978,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ef5cf665-2b45-4977-845a-75f86542bd71}</uid>
+                               <uid>{4544a83e-c956-476c-9fc2-f359043d10a7}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void showTable(int)</declaration>
@@ -1986,7 +1986,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{24c35a2e-6dc0-4496-af3d-65ff1318d8bf}</uid>
+                               <uid>{62f470da-4c11-45ee-a596-5ac0390b0345}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void FormEducationChanget()</declaration>
@@ -1994,7 +1994,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{4d9e544e-3321-4d3e-8123-5e211a936fbe}</uid>
+                               <uid>{68060914-8d5f-40aa-8810-234d965415e0}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void showMarkInputForm()</declaration>
@@ -2002,7 +2002,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{fa55bc85-3234-4678-a57b-766d27439f9d}</uid>
+                               <uid>{f9fe4b1f-a48c-4b0b-81e5-323b50526a9f}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QWidget *w2</declaration>
@@ -2010,7 +2010,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2852f321-309b-49bc-8fc5-edc98054fd66}</uid>
+                               <uid>{64f04482-6139-4a28-8659-a88b335b84a2}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;QuickAccessPanelItem*&gt; QuickAccessItems</declaration>
@@ -2018,7 +2018,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ea563d38-9cc5-4594-a999-49c0ecd720fa}</uid>
+                               <uid>{60768c77-5ad3-45e5-8948-6e2ee5e205d0}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>addDataWindow *w</declaration>
@@ -2026,7 +2026,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a1dddcf0-a63e-45ad-9d1a-6a55b12a1eec}</uid>
+                               <uid>{ba49951a-b344-4b3b-b322-e5b616273883}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -2034,7 +2034,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{97dc47b8-6caf-4220-8590-b3b1092560de}</uid>
+                               <uid>{9a00fbba-aadb-4e30-8337-5f3bbf5b038e}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::EducationProgressMainWindow *ui</declaration>
@@ -2504,7 +2504,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{1f989ada-ce49-4f03-8562-d88c5f3bf4db}</uid>
+                               <uid>{ea42faa2-68b5-4027-9080-14d7752c23a4}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit addDataWindow(QWidget *parent = nullptr)</declaration>
@@ -2512,7 +2512,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{40b7db5b-0458-4c98-80af-3fb211701532}</uid>
+                               <uid>{743b68c7-5f96-44b3-9bfb-30c9c39f8dd6}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~addDataWindow()</declaration>
@@ -2520,7 +2520,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{84fae6d8-a5e9-4c1c-abe8-4dc1e5733b88}</uid>
+                               <uid>{d3c19a1c-ff55-4ad2-8b8e-d49b9405ff15}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void setInputForm()</declaration>
@@ -2528,7 +2528,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{54e7bc2e-6f41-4667-be04-ada273b2a4e8}</uid>
+                               <uid>{a7fd71f0-da9b-4fb2-b711-2ee0e860c0e6}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::addDataWindow *ui</declaration>
@@ -2599,7 +2599,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{33ccb236-badc-491d-afe2-4202e95d843d}</uid>
+                               <uid>{1114304d-2b5d-4e5e-83fa-242683a17fc5}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>enum Status{college, department, spesiality, group}</declaration>
@@ -2607,7 +2607,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{d7ac431b-da20-4050-95bf-cd72c06c0261}</uid>
+                               <uid>{83300c68-c7c9-4fd6-a524-91218ded4a15}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit QuickAccessPanelItem(QString name, Status status, int thisID, QWidget *parent = nullptr)</declaration>
@@ -2615,7 +2615,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{0d319de8-15fa-4232-bf1a-05c1909d5569}</uid>
+                               <uid>{d8476e10-160d-4a76-aab1-99f0cc4ab9c2}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~QuickAccessPanelItem()</declaration>
@@ -2623,7 +2623,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8d856481-4e63-4cbd-9f5a-d4745f6b1796}</uid>
+                               <uid>{bde80203-1895-48dd-90fa-03a439c4e2e5}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void changeChild()</declaration>
@@ -2631,7 +2631,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{976c449b-a5d3-466a-b119-9f2353a866b8}</uid>
+                               <uid>{09bd6cf6-0c59-4258-8039-c3a50ad6646b}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void Back()</declaration>
@@ -2639,7 +2639,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e816f906-05db-4193-88ae-c1e8b7321994}</uid>
+                               <uid>{55b55cef-c635-4ee8-91b2-c6d88c39b785}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void Remove()</declaration>
@@ -2647,7 +2647,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e4f1a6d0-99ca-448b-b71c-c23725663fb3}</uid>
+                               <uid>{d37a0299-d3cb-42c5-873f-cc35c61dc63e}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void Reload()</declaration>
@@ -2655,7 +2655,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2c50ed18-f250-484a-bb25-ab6181a8f5b2}</uid>
+                               <uid>{b7ec3ce1-0b8e-45b9-bece-e30910bc9eff}</uid>
                                <visibility>4</visibility>
                                <type>2</type>
                                <declaration>void selected(int)</declaration>
@@ -2663,7 +2663,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a94c728b-e41c-4ab2-b298-e06771bd5a60}</uid>
+                               <uid>{8ddbafe3-ae8b-41d1-9f08-c116c17dd8f2}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>int thisID</declaration>
@@ -2671,7 +2671,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{77abe685-62ed-4e4c-aa50-f7eb0344b09d}</uid>
+                               <uid>{45292ca7-f395-41b1-a8d7-c48b02da5aeb}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QStack&lt;QPair&lt;Status, int&gt;&gt; parentList</declaration>
@@ -2679,7 +2679,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{eb5796d8-08e9-4605-a342-3aeb07b7de82}</uid>
+                               <uid>{608dcdea-0b3b-4b55-8b35-8d0259eac328}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;QPair&lt;QPushButton*, int&gt;&gt; childs</declaration>
@@ -2687,7 +2687,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{6bf85f44-3d5e-45cb-8b5e-fea5bf010d41}</uid>
+                               <uid>{bf4575a9-8af7-47bf-b13f-ef09581b58c0}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;int&gt; itemsID</declaration>
@@ -2695,7 +2695,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{0f1380b4-d79c-4aec-9ae1-60912bfdb96e}</uid>
+                               <uid>{c41ea202-96ca-4ed6-bb70-0fdee420e247}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -2703,7 +2703,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e6939653-c1a4-4253-86f2-fd55ed0b8d2f}</uid>
+                               <uid>{ead1fa54-30dd-45d1-b1bb-2008d243b19b}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Status status</declaration>
@@ -2711,7 +2711,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a7b379fc-0912-4e41-9f4a-16ac68de06f1}</uid>
+                               <uid>{652c2f45-57c4-4e9f-b251-12793cc32795}</uid>
                                <visibility>3</visibility>
                                <type>2</type>
                                <declaration>void Init(QString name,  Status status,int thisID)</declaration>
@@ -2719,7 +2719,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{af7e9bcd-f628-40ca-83c7-1c9ecd9b5342}</uid>
+                               <uid>{f007c823-ba27-4011-858c-6fb65bf751ab}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::QuickAccessPanelItem *ui</declaration>
@@ -2864,7 +2864,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{5773e35c-5e1e-4474-828f-a0a6d3777992}</uid>
+                               <uid>{a94ab427-dd4d-4e92-9c46-89d3620f71ee}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit DepartmentsInputForm(QWidget *parent = nullptr)</declaration>
@@ -2872,7 +2872,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{6e4ead9f-0c7e-4e80-82f1-662ff57d7b5a}</uid>
+                               <uid>{97c655af-fa16-4ecc-a4f2-77e96c0ceaed}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~DepartmentsInputForm()</declaration>
@@ -2880,7 +2880,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{b2da05c9-37c3-4cf7-839b-c6dd292c5501}</uid>
+                               <uid>{2e335f40-ba0d-40fb-9264-bc011b089615}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -2888,7 +2888,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{36971547-ecae-4e32-b185-5665a1838f49}</uid>
+                               <uid>{9f3c9f98-ba50-4e25-9c6a-4da737532ea1}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void cancel()</declaration>
@@ -2896,7 +2896,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{1e8fcbd4-8105-48ca-b1d2-30df38cacceb}</uid>
+                               <uid>{0c7aa7dd-a4f8-49f4-985f-3e5f98fabb12}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void departmentValueChanged(int)</declaration>
@@ -2904,7 +2904,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{246c1178-e50c-4225-aad1-cb3518667697}</uid>
+                               <uid>{16cff9ff-e0af-469b-85b0-671edcbd303c}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -2912,7 +2912,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{76ada3c2-ae47-4509-9776-869a171fe6ad}</uid>
+                               <uid>{adbce4bc-bb46-4320-97a4-9ce031c2514c}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;QLineEdit*&gt; lines</declaration>
@@ -2920,7 +2920,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ca2497e3-d8be-4369-91ed-be2f48554746}</uid>
+                               <uid>{c4f9fbdc-7f60-412c-ac10-2efbcb0ae677}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::DepartmentsInputForm *ui</declaration>
@@ -2991,7 +2991,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{c76f5d09-f536-4340-b884-e2539202a35b}</uid>
+                               <uid>{3edeb813-3741-4125-a091-71bf320ae268}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit GroupInputForm(QWidget *parent = nullptr)</declaration>
@@ -2999,7 +2999,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5725ce47-c869-4346-a8b7-b5590ca04c4c}</uid>
+                               <uid>{e4874562-2c15-4af6-994c-2689466b0478}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~GroupInputForm()</declaration>
@@ -3007,7 +3007,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{fe3510fc-5161-4dbd-a6fd-6b669e17b8b8}</uid>
+                               <uid>{98b108ce-ee21-42b9-bbc0-56353c6874c9}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -3015,7 +3015,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8277a294-8d82-41ec-aa66-339398431340}</uid>
+                               <uid>{86ea972d-d239-40b5-9820-33ac389410ad}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void cancel()</declaration>
@@ -3023,7 +3023,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e1b7443b-aba1-47da-afb6-4cfc9a6efaca}</uid>
+                               <uid>{52c0710d-bf17-449a-b9b0-975af9ca05c9}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -3031,7 +3031,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c8e74773-b81b-4ffe-9303-a414b15e2cac}</uid>
+                               <uid>{346b55ab-7a1d-4a9f-8bc5-0b2f23223b8b}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::GroupInputForm *ui</declaration>
@@ -3095,7 +3095,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{1c2fc1d2-8c9b-4701-be85-b3686d336c8c}</uid>
+                               <uid>{13cffb62-4ae2-488d-8957-b9717f789d37}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit LecturerInputForm(QWidget *parent = nullptr)</declaration>
@@ -3103,7 +3103,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{51bb59c5-38a3-4593-b802-bd7ee0eea15f}</uid>
+                               <uid>{c44bbb6e-f184-4324-a583-ca8357d8c696}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~LecturerInputForm()</declaration>
@@ -3111,7 +3111,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{447f988d-e1f9-478a-90c7-5b42fc744a48}</uid>
+                               <uid>{f6573684-135d-4169-bbd1-7fcd887dfb1a}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -3119,7 +3119,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bc9dcecf-560d-4976-b33d-c5df52d37a5b}</uid>
+                               <uid>{4fc3a5ff-7467-452a-94bf-a075b2935884}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void cancel()</declaration>
@@ -3127,7 +3127,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bac3cfea-652a-40bc-967a-ce21db4c1b8d}</uid>
+                               <uid>{8fd3e7f0-37e1-43cc-94f7-08aadd625c46}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -3135,7 +3135,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c55fe138-d431-4504-8566-c4de27e94aba}</uid>
+                               <uid>{53f49250-cf61-46cf-9d03-98f6a02734af}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::LecturerInputForm *ui</declaration>
@@ -3199,7 +3199,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{2cf8069e-af78-4886-ae1e-fe69d9c1065c}</uid>
+                               <uid>{d4e63939-71ea-4ffa-87f4-c2c0c3ee2318}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit MarkInputForm(QWidget *parent = nullptr)</declaration>
@@ -3207,7 +3207,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{1b0393ca-1206-48a9-bc63-19ea3025dc3e}</uid>
+                               <uid>{abb6052f-baee-47c5-bbda-985666072233}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~MarkInputForm()</declaration>
@@ -3215,7 +3215,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{9b15b0a6-e56d-4d8d-8ac8-cce0e759c401}</uid>
+                               <uid>{20a832df-81e9-4a29-aadd-b791c97ee2ac}</uid>
                                <visibility>7</visibility>
                                <type>2</type>
                                <declaration>void groupSelected(int)</declaration>
@@ -3223,7 +3223,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{1f5379a7-75de-46fd-9ca4-1df86b70ad1d}</uid>
+                               <uid>{87c276de-fa92-42cd-85d5-a805ea6acfd5}</uid>
                                <visibility>7</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -3231,7 +3231,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{f8960c32-9228-4d91-96c6-65a2a52da2e3}</uid>
+                               <uid>{1c7584cf-6416-4e19-bf65-058720fa77c9}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>int currentGroup</declaration>
@@ -3239,7 +3239,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e8b1ad6e-c7b4-4704-a1cd-7ef6f8468bfc}</uid>
+                               <uid>{022d7fa2-365e-4283-a072-34940b96b9c0}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;QPair&lt;QLineEdit*, int&gt;&gt; lines</declaration>
@@ -3247,7 +3247,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{994d5aba-c7d8-4973-b721-d1ac2130a921}</uid>
+                               <uid>{8dd9bba6-3f51-4e93-948a-8209c2712a07}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -3255,7 +3255,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{dbedfda6-53b4-440e-8857-fce7dabb16c1}</uid>
+                               <uid>{436cb01f-5322-4e89-9064-caa4ca517a46}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::MarkInputForm *ui</declaration>
@@ -3263,7 +3263,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{7fe309a8-30e5-488d-a132-0a79441076cb}</uid>
+                               <uid>{7ff241fa-6fac-4280-8f8a-fc7249bcdd28}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QuickAccessPanelItem *panel</declaration>
@@ -3334,7 +3334,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{5df6d468-d550-4343-af42-3ea13ebb17f9}</uid>
+                               <uid>{66221520-267d-409f-bf6d-3f11b17ebdad}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit SpecialiyInputForm(QWidget *parent = nullptr)</declaration>
@@ -3342,7 +3342,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{4d0bed19-79d1-49c8-a38a-dca3b6b51963}</uid>
+                               <uid>{c2e3189e-eaea-45b4-89b1-6a419161beec}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~SpecialiyInputForm()</declaration>
@@ -3350,7 +3350,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{b0db97a8-aada-461d-b804-6d40f7730d6f}</uid>
+                               <uid>{92b686e6-c6b9-4854-9af3-03ddcf96363a}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -3358,7 +3358,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{9098fb1e-32ee-4dfb-b961-0acdd812d46a}</uid>
+                               <uid>{3e67b9bc-2fd1-4d07-8ead-88376c2b9d71}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void cancel()</declaration>
@@ -3366,7 +3366,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{05a97e72-69e8-404e-8b81-4562403a2fe8}</uid>
+                               <uid>{c6bae39a-0d30-42e9-b161-cdcf7fd28b58}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -3374,7 +3374,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{911b2d9d-5e9b-4ed9-80e1-2d42225aaebd}</uid>
+                               <uid>{1b2e9f9c-0d6a-4ff3-ac3d-893e132b6bac}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;QPair&lt;int, int&gt;&gt; departments</declaration>
@@ -3382,7 +3382,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{d565602b-5e7b-4ef2-95d7-f6c94916bd9f}</uid>
+                               <uid>{e0f46648-1527-4cc6-9242-ac36d91df206}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::SpecialiyInputForm *ui</declaration>
@@ -3519,7 +3519,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{d66a88c8-5d04-4007-b51e-e3f4e7ac8107}</uid>
+                               <uid>{0296eef2-087a-4cd9-bcce-e8cca74074c6}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit StudenrInputForm(QWidget *parent = nullptr)</declaration>
@@ -3527,7 +3527,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{90789546-722d-4acd-bf89-8ac366f10a8f}</uid>
+                               <uid>{a34dc26b-704c-4879-bcaa-589b831a2b39}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~StudenrInputForm()</declaration>
@@ -3535,7 +3535,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{d3a566d5-cc66-47a5-9ecf-f29bd64f2302}</uid>
+                               <uid>{216d5e98-e2f0-4843-9b12-55dc79bab411}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -3543,7 +3543,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{21ec4442-be37-449f-b4c4-1b3329fe1939}</uid>
+                               <uid>{d8a1d8d9-ecd1-4285-a637-bf0c60ffadfd}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void cancel()</declaration>
@@ -3551,7 +3551,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ea010b33-9ca3-427c-b941-ea0fc4b512fa}</uid>
+                               <uid>{bb26572f-6aeb-404c-8232-15651585d6bd}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::StudenrInputForm *ui</declaration>
@@ -3559,7 +3559,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{81708591-2972-486e-ba48-6ba2bb90976b}</uid>
+                               <uid>{7b7f0412-8eb7-45a1-b84c-1b7c9fc23406}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -3623,7 +3623,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{7dafbfe5-056c-4b23-b7c8-cb45a09c76db}</uid>
+                               <uid>{82a0ad7f-d977-415c-842e-4d3b2d6c7d59}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit SubjectInputForm(QWidget *parent = nullptr)</declaration>
@@ -3631,7 +3631,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{b57c4140-9333-48a7-8904-e91364ab33e4}</uid>
+                               <uid>{a0c056f1-da1c-4873-9ba3-c7bca08d5041}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~SubjectInputForm()</declaration>
@@ -3639,7 +3639,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{7a899a8d-d797-46d7-a46b-d071bb3983f1}</uid>
+                               <uid>{1d9b86d7-218b-48fd-a2fa-d176219544d7}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void completed()</declaration>
@@ -3647,7 +3647,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{9060b978-b397-4388-bc4c-79f46ab99fca}</uid>
+                               <uid>{0d05aad9-6bd2-40bb-88a2-d116308abe34}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void cancel()</declaration>
@@ -3655,7 +3655,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c3dd2864-0fdc-4e3e-8063-efb8e24f7f06}</uid>
+                               <uid>{cd18b986-f293-4b08-a330-a555a0a84c31}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void subjectValueChanged(int)</declaration>
@@ -3663,7 +3663,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{da7429d2-dcae-4d95-9032-776419b7c347}</uid>
+                               <uid>{ebe570e0-be20-48f8-9398-462e7d02cfee}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>DatabaseHelper dbHelper</declaration>
@@ -3671,7 +3671,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c30db144-b49b-4280-af92-14a79ab2c6bd}</uid>
+                               <uid>{8b7b9717-5478-471a-b61a-55411c70e7b7}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::SubjectInputForm *ui</declaration>
@@ -3679,7 +3679,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{d83e72ce-68b2-4879-b1db-612c0df37d1f}</uid>
+                               <uid>{16872a0f-30ae-4292-ae5a-1ad69549b4b7}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QList&lt;QLineEdit*&gt; lines</declaration>

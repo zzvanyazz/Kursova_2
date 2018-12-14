@@ -109,7 +109,7 @@ void DatabaseHelper::addSubject(QString name){
 }
 
 void DatabaseHelper::addLesson(int grup, int day_of_week, int number_of_lesson,
-                               int subject, int lecturer,  QString classroom){
+                               QString subject, QString lecturer,  QString classroom){
     QSqlQuery query(db);
     query.prepare("INSERT INTO schedule (grup, day_of_week, number_of_lesson, subject, lecturer, classroom) "
                   "VALUES (:grup, :day_of_week, :number_of_lesson, :subject, :lecturer, :classroom)");

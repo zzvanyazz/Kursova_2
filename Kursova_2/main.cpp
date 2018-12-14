@@ -4,9 +4,10 @@
 #include <QtSql>
 #include <databasehelper.h>
 #include <QDebug>
-#include <ScheduleForms/educationprogressmainwindow.h>
+#include <ScheduleForms/schedulemainwindow.h>
 #include <ScheduleForms/adddatawindow.h>
 #include <ScheduleForms/InputForms/weekinputform.h>
+#include <ScheduleForms/scheduledayshowform.h>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
     qDebug() << stack.pop() << endl;
     qDebug() <<  "test 3 " << endl;
 
-    WeekInputForm w;
+    ScheduleMainWindow w;
 
     w.show();
 

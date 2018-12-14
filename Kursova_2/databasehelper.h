@@ -21,8 +21,8 @@ public:
     enum class ColumnsOfGroup             {ID, number, name, spesiality, curator};
     enum class ColumnsOfStudent           {ID, group, name, surname ,lastname , form_of_education};
     enum class ColumsOfLecturers          {ID, name, surname, lastname};
-    enum class ColumnsOfSchedule          {ID, group, day_of_week, number_of_week, number_of_lesson, subject, lecturer, classroom};
-    enum class ColumnsOfEducationProgress {ID, student, group, semester, subject, form_of_control, lecturer, mark};
+    enum class ColumnsOfSchedule          {ID, group, day_of_week, number_of_lesson, subject, lecturer, classroom};
+    enum class ColumnsOfEducationProgress {ID, student, group, semester, subject, mark};
 
 
 
@@ -44,9 +44,9 @@ public:
     void addLecturer(QString name, QString surname, QString lastname);
     void addSubject(QString name);
     void addLesson(int grup, int day_of_week, int number_of_lesson,
-                   int subject, int lecturer,  QString classroom);
+                   QString subject, QString lecturer,  QString classroom);
     void addMark(int student, int grup, bool semester, int subject, int mark);
-    void addScheduleItem(int group, int dayOfWeek, int numberOfLesson, int Subject, int Lecturer, QString auditory);
+
 
 
     //get------------------------------------------

@@ -13,13 +13,14 @@ WeekInputForm::WeekInputForm(QWidget *parent) :
     panel->show();
     ui->QuickAccessConteiner->layout()->addWidget(panel);
     connect(panel, &QuickAccessPanelItem::selected, this, &WeekInputForm::showDaysForms);
+    connect(ui->ButtonCansel, &QPushButton::pressed, this, &QWidget::hide);
 
 
 
 
 
 }
-void WeekInputForm::showDaysForms(int goupId){
+void WeekInputForm::showDaysForms(int groupId){
     for (int i = ui->tabWidget->count(); i > 0; --i) {
        ui->tabWidget->removeTab(0);
     }
@@ -27,7 +28,7 @@ void WeekInputForm::showDaysForms(int goupId){
 
         //QMessageBox::warning(this, "ww", "ww");
         //ui->tabWidget->ch
-        DayInputForm *d = new DayInputForm(i, this);
+        DayInputForm *d = new DayInputForm(groupId, i, this);
 
                 ui->tabWidget->addTab(d, days[i]);
         connect(ui->ButtonOk, &QPushButton::pressed, d, &DayInputForm::PushData);

@@ -1,5 +1,5 @@
-#ifndef EDUCATIONPROGRESSMAINWINDOW_H
-#define EDUCATIONPROGRESSMAINWINDOW_H
+#ifndef ScheduleMainWindow_H
+#define ScheduleMainWindow_H
 #include <databasehelper.h>
 #include <QMainWindow>
 #include <ScheduleForms/quickaccesspanelitem.h>
@@ -8,10 +8,10 @@
 #include<QStandardItemModel>
 #include<QSqlQueryModel>
 namespace Ui {
-class EducationProgressMainWindow;
+class ScheduleMainWindow;
 }
 
-class EducationProgressMainWindow : public QMainWindow
+class ScheduleMainWindow : public QMainWindow
 {
     Q_OBJECT
     int currentGroup  = 0;
@@ -19,14 +19,15 @@ class EducationProgressMainWindow : public QMainWindow
 
 
 public:
-    explicit EducationProgressMainWindow(QWidget *parent = nullptr);
-    ~EducationProgressMainWindow();
+    explicit ScheduleMainWindow(QWidget *parent = nullptr);
+    ~ScheduleMainWindow();
 private slots:
 
     void addItemQuickAccessPanel();
     void showAddDataWindow();
     void showTable(int);
-    void FormEducationChanged();
+
+    void showWeekInputForm();
 
 
 
@@ -35,8 +36,8 @@ private:
     QList<QuickAccessPanelItem*> QuickAccessItems;
      addDataWindow *w;
     DatabaseHelper dbHelper;
-    Ui::EducationProgressMainWindow *ui;
+    Ui::ScheduleMainWindow *ui;
 
 };
 
-#endif // EDUCATIONPROGRESSMAINWINDOW_H
+#endif // ScheduleMainWindow_H

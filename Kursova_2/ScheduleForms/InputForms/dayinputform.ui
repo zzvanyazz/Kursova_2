@@ -135,7 +135,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Аудитлорія</string>
+        <string>Аудиторія</string>
        </property>
       </widget>
      </item>
@@ -200,7 +200,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Аудитлорія</string>
+        <string>Аудиторія</string>
        </property>
       </widget>
      </item>
@@ -265,7 +265,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Аудитлорія</string>
+        <string>Аудиторія</string>
        </property>
       </widget>
      </item>
@@ -330,7 +330,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Аудитлорія</string>
+        <string>Аудиторія</string>
        </property>
       </widget>
      </item>

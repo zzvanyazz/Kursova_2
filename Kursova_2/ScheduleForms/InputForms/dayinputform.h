@@ -14,7 +14,7 @@ class DayInputForm : public QWidget
 
 
 public:
-    explicit DayInputForm(int, QWidget *parent = nullptr);
+    explicit DayInputForm(int, int, QWidget *parent = nullptr);
     ~DayInputForm();
 public slots:
     void PushData();

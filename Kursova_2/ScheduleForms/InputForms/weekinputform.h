@@ -11,7 +11,7 @@ class WeekInputForm;
 class WeekInputForm : public QWidget
 {
 
-    QString days[5] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+    QString days[5] = {"Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця"};
     Q_OBJECT
     DayInputForm* weekForms[5];
 

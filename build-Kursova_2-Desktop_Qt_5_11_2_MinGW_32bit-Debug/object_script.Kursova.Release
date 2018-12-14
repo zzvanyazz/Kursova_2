@@ -1,7 +1,7 @@
 INPUT(
 ./release\main.o
 ./release\databasehelper.o
-./release\educationprogressmainwindow.o
+./release\schedulemainwindow.o
 ./release\quickaccesspanelitem.o
 ./release\adddatawindow.o
 ./release\studenrinputform.o
@@ -12,7 +12,8 @@ INPUT(
 ./release\specialiyinputform.o
 ./release\weekinputform.o
 ./release\dayinputform.o
-./release\moc_educationprogressmainwindow.o
+./release\scheduledayshowform.o
+./release\moc_schedulemainwindow.o
 ./release\moc_quickaccesspanelitem.o
 ./release\moc_adddatawindow.o
 ./release\moc_studenrinputform.o
@@ -23,4 +24,5 @@ INPUT(
 ./release\moc_specialiyinputform.o
 ./release\moc_weekinputform.o
 ./release\moc_dayinputform.o
+./release\moc_scheduledayshowform.o
 );
