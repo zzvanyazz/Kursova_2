@@ -44,14 +44,7 @@ void EducationProgressMainWindow::showAddDataWindow(){
 
 
 }
-void EducationProgressMainWindow::showMarkInputForm(){
-    QMainWindow  *w = new QMainWindow(this);
 
-    MarkInputForm *m = new MarkInputForm();
-    w->setCentralWidget(m);
-    w->show();
-
-}
 
 void EducationProgressMainWindow::showTable(int GroupID){
 
