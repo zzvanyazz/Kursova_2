@@ -172,7 +172,7 @@ public:
         QFont font;
         font.setPointSize(12);
         labelGrup->setFont(font);
-        labelGrup->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextEditable|Qt::TextSelectableByMouse);
+        labelGrup->setTextInteractionFlags(Qt::TextEditable);
 
         horizontalLayout_3->addWidget(labelGrup);
 

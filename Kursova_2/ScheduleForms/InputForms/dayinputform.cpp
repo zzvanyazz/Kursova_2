@@ -45,7 +45,7 @@ DayInputForm::DayInputForm(int groupId, int dayOfWeek, QWidget *parent) :
                                   +lec->value((int)DatabaseHelper::ColumsOfLecturers::name).toString() + " "
                                   +lec->value((int)DatabaseHelper::ColumsOfLecturers::lastname).toString(),
                                  lec->value((int)DatabaseHelper::ColumsOfLecturers::ID));
-            qDebug() << sub->value((int)DatabaseHelper::ColumsOfLecturers::ID).toString()+"!@@@@";
+
 
         }while(lec->next());
         sub->first();
