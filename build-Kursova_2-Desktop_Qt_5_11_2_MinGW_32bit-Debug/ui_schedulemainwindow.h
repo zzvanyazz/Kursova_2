@@ -48,6 +48,8 @@ public:
     QLabel *name_grup;
     QLabel *labelCurator;
     QLabel *name_curator;
+    QWidget *widget_2;
+    QVBoxLayout *verticalLayout_5;
     QHBoxLayout *FirstConteinerForDays;
     QHBoxLayout *SecondConteinerForDays;
     QWidget *FunctionalPanelConteiner;
@@ -56,6 +58,7 @@ public:
     QVBoxLayout *verticalLayout_4;
     QPushButton *ButtonShowAddWindow;
     QPushButton *buttonAddSchedule;
+    QPushButton *ButtonShowRepairWindow;
     QSpacerItem *verticalSpacer_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -199,15 +202,22 @@ public:
 
         verticalLayout_6->addWidget(InfoWidget);
 
+        widget_2 = new QWidget(EducationPregressWidget);
+        widget_2->setObjectName(QStringLiteral("widget_2"));
+        verticalLayout_5 = new QVBoxLayout(widget_2);
+        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
         FirstConteinerForDays = new QHBoxLayout();
         FirstConteinerForDays->setObjectName(QStringLiteral("FirstConteinerForDays"));
 
-        verticalLayout_6->addLayout(FirstConteinerForDays);
+        verticalLayout_5->addLayout(FirstConteinerForDays);
 
         SecondConteinerForDays = new QHBoxLayout();
         SecondConteinerForDays->setObjectName(QStringLiteral("SecondConteinerForDays"));
 
-        verticalLayout_6->addLayout(SecondConteinerForDays);
+        verticalLayout_5->addLayout(SecondConteinerForDays);
+
+
+        verticalLayout_6->addWidget(widget_2);
 
 
         horizontalLayout->addWidget(EducationPregressWidget);
@@ -231,6 +241,11 @@ public:
         buttonAddSchedule->setObjectName(QStringLiteral("buttonAddSchedule"));
 
         verticalLayout_4->addWidget(buttonAddSchedule);
+
+        ButtonShowRepairWindow = new QPushButton(FunctionalPanel);
+        ButtonShowRepairWindow->setObjectName(QStringLiteral("ButtonShowRepairWindow"));
+
+        verticalLayout_4->addWidget(ButtonShowRepairWindow);
 
 
         verticalLayout_2->addWidget(FunctionalPanel);
@@ -266,6 +281,7 @@ public:
         name_curator->setText(QString());
         ButtonShowAddWindow->setText(QApplication::translate("ScheduleMainWindow", "+", nullptr));
         buttonAddSchedule->setText(QApplication::translate("ScheduleMainWindow", "\320\224\320\276\320\264\320\260\321\202\320\270 \321\200\320\276\320\267\320\272\320\273\320\260\320\264", nullptr));
+        ButtonShowRepairWindow->setText(QApplication::translate("ScheduleMainWindow", "\320\240\320\265\320\264\320\260\320\263\321\203\320\262\320\260\321\202\320\270", nullptr));
     } // retranslateUi
 
 };

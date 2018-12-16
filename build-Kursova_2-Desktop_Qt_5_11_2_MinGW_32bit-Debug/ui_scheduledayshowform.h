@@ -54,6 +54,9 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(DayName->sizePolicy().hasHeightForWidth());
         DayName->setSizePolicy(sizePolicy);
+        QFont font;
+        font.setPointSize(12);
+        DayName->setFont(font);
 
         verticalLayout->addWidget(DayName, 0, Qt::AlignHCenter);
 
@@ -66,8 +69,6 @@ public:
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(label->sizePolicy().hasHeightForWidth());
         label->setSizePolicy(sizePolicy1);
-        QFont font;
-        font.setPointSize(12);
         label->setFont(font);
 
         horizontalLayout_14->addWidget(label);

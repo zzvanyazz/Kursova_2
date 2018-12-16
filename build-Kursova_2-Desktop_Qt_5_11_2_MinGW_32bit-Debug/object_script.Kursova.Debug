@@ -13,6 +13,13 @@ INPUT(
 ./debug\weekinputform.o
 ./debug\dayinputform.o
 ./debug\scheduledayshowform.o
+./debug\repairdatamainwindow.o
+./debug\departmentrepairform.o
+./debug\specialityrepairform.o
+./debug\grouprepairform.o
+./debug\studentrepairform.o
+./debug\lecturerrepairform.o
+./debug\subjectrepairform.o
 ./debug\moc_schedulemainwindow.o
 ./debug\moc_quickaccesspanelitem.o
 ./debug\moc_adddatawindow.o
@@ -25,4 +32,11 @@ INPUT(
 ./debug\moc_weekinputform.o
 ./debug\moc_dayinputform.o
 ./debug\moc_scheduledayshowform.o
+./debug\moc_repairdatamainwindow.o
+./debug\moc_departmentrepairform.o
+./debug\moc_specialityrepairform.o
+./debug\moc_grouprepairform.o
+./debug\moc_studentrepairform.o
+./debug\moc_lecturerrepairform.o
+./debug\moc_subjectrepairform.o
 );

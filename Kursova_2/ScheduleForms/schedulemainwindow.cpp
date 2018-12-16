@@ -17,7 +17,7 @@ ScheduleMainWindow::ScheduleMainWindow(QWidget *parent) :
     connect(ui->ButtonAddPanelItem, SIGNAL (pressed()),this, SLOT (addItemQuickAccessPanel()));
     connect(ui->ButtonShowAddWindow, SIGNAL (pressed()),this, SLOT (showAddDataWindow()));
     connect(ui->buttonAddSchedule, SIGNAL (pressed()),this, SLOT (showWeekInputForm()));
-
+ //connect(ui->ButtonShowRepairWindow, &QPushButton::pressed, this, &EducationProgressMainWindow::showRepairWindow);
     w2 = new QWidget(this);
 
 
@@ -52,6 +52,17 @@ void ScheduleMainWindow::showTable(int GroupID){
     for(ScheduleDayShowForm *s: days){
         s->hide();
     }
+
+    QSqlQuery *group = dbHelper.getGroup("ID = "+ QString().number(GroupID));
+    group->first();
+
+    ui->name_grup->setText(group->value((int)DatabaseHelper::ColumnsOfGroup::name).toString()+ " - "+group->value((int)DatabaseHelper::ColumnsOfGroup::number).toString());
+    QSqlQuery *lecturer = dbHelper.getLecturer("ID = "+ QString().number(group->value((int)DatabaseHelper::ColumnsOfGroup::curator).toInt()));
+    lecturer->first();
+    ui->name_curator->setText(lecturer->value((int)DatabaseHelper::ColumsOfLecturers::surname).toString() + " "+
+                              lecturer->value((int)DatabaseHelper::ColumsOfLecturers::name).toString() + " "+
+                              lecturer->value((int)DatabaseHelper::ColumsOfLecturers::lastname).toString());
+
 
     ScheduleDayShowForm *monday = new  ScheduleDayShowForm(GroupID, 0);
     ui->FirstConteinerForDays->addWidget(monday);

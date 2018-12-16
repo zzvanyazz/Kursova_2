@@ -38,7 +38,14 @@ SOURCES += \
     ScheduleForms/InputForms/specialiyinputform.cpp \
     ScheduleForms/InputForms/weekinputform.cpp \
     ScheduleForms/InputForms/dayinputform.cpp \
-    ScheduleForms/scheduledayshowform.cpp
+    ScheduleForms/scheduledayshowform.cpp \
+    ScheduleForms/repairdatamainwindow.cpp \
+    ScheduleForms/RepairForms/departmentrepairform.cpp \
+    ScheduleForms/RepairForms/specialityrepairform.cpp \
+    ScheduleForms/RepairForms/grouprepairform.cpp \
+    ScheduleForms/RepairForms/studentrepairform.cpp \
+    ScheduleForms/RepairForms/lecturerrepairform.cpp \
+    ScheduleForms/RepairForms/subjectrepairform.cpp
 
 HEADERS += \
     databasehelper.h \
@@ -53,7 +60,14 @@ HEADERS += \
     ScheduleForms/InputForms/specialiyinputform.h \
     ScheduleForms/InputForms/weekinputform.h \
     ScheduleForms/InputForms/dayinputform.h \
-    ScheduleForms/scheduledayshowform.h
+    ScheduleForms/scheduledayshowform.h \
+    ScheduleForms/repairdatamainwindow.h \
+    ScheduleForms/RepairForms/departmentrepairform.h \
+    ScheduleForms/RepairForms/specialityrepairform.h \
+    ScheduleForms/RepairForms/grouprepairform.h \
+    ScheduleForms/RepairForms/studentrepairform.h \
+    ScheduleForms/RepairForms/lecturerrepairform.h \
+    ScheduleForms/RepairForms/subjectrepairform.h
 
 FORMS += \
     ScheduleForms/schedulemainwindow.ui \
@@ -67,7 +81,14 @@ FORMS += \
     ScheduleForms/InputForms/specialiyinputform.ui \
     ScheduleForms/InputForms/weekinputform.ui \
     ScheduleForms/InputForms/dayinputform.ui \
-    ScheduleForms/scheduledayshowform.ui
+    ScheduleForms/scheduledayshowform.ui \
+    ScheduleForms/repairdatamainwindow.ui \
+    ScheduleForms/RepairForms/departmentrepairform.ui \
+    ScheduleForms/RepairForms/specialityrepairform.ui \
+    ScheduleForms/RepairForms/grouprepairform.ui \
+    ScheduleForms/RepairForms/studentrepairform.ui \
+    ScheduleForms/RepairForms/lecturerrepairform.ui \
+    ScheduleForms/RepairForms/subjectrepairform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

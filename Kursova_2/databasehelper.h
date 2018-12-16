@@ -3,7 +3,7 @@
 #define DatabasePath "college.db"
 #include <QtSql>
 
-class DatabaseHelper
+static class DatabaseHelper
 {
 
 
@@ -88,6 +88,6 @@ public:
 
 
 
-};
+} dbHelper;
 
 #endif // DATABASEHELPER_H

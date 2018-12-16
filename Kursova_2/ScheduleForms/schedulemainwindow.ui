@@ -248,10 +248,16 @@
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="FirstConteinerForDays"/>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="SecondConteinerForDays"/>
+        <widget class="QWidget" name="widget_2" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="FirstConteinerForDays"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="SecondConteinerForDays"/>
+          </item>
+         </layout>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -279,6 +285,13 @@
            <widget class="QPushButton" name="buttonAddSchedule">
             <property name="text">
              <string>Додати розклад</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="ButtonShowRepairWindow">
+            <property name="text">
+             <string>Редагувати</string>
             </property>
            </widget>
           </item>
