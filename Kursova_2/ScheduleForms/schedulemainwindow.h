@@ -23,7 +23,7 @@ public:
     explicit ScheduleMainWindow(QWidget *parent = nullptr);
     ~ScheduleMainWindow();
 private slots:
-
+    void showRepairWindow();
     void addItemQuickAccessPanel();
     void showAddDataWindow();
     void showTable(int);
@@ -34,9 +34,9 @@ private slots:
 
 private:
     QList<ScheduleDayShowForm*> days;
-     QWidget *w2;
+    QWidget *w2;
     QList<QuickAccessPanelItem*> QuickAccessItems;
-     addDataWindow *w;
+    addDataWindow *w;
     DatabaseHelper dbHelper;
     Ui::ScheduleMainWindow *ui;
 

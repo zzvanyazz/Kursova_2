@@ -6,7 +6,7 @@
 #include <ScheduleForms/adddatawindow.h>
 #include <ScheduleForms/InputForms/weekinputform.h>
 #include <ScheduleForms/scheduledayshowform.h>
-
+#include <ScheduleForms/repairdatamainwindow.h>
 ScheduleMainWindow::ScheduleMainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::ScheduleMainWindow)
@@ -17,7 +17,7 @@ ScheduleMainWindow::ScheduleMainWindow(QWidget *parent) :
     connect(ui->ButtonAddPanelItem, SIGNAL (pressed()),this, SLOT (addItemQuickAccessPanel()));
     connect(ui->ButtonShowAddWindow, SIGNAL (pressed()),this, SLOT (showAddDataWindow()));
     connect(ui->buttonAddSchedule, SIGNAL (pressed()),this, SLOT (showWeekInputForm()));
- //connect(ui->ButtonShowRepairWindow, &QPushButton::pressed, this, &EducationProgressMainWindow::showRepairWindow);
+    connect(ui->ButtonShowRepairWindow, &QPushButton::pressed, this, &ScheduleMainWindow::showRepairWindow);
     w2 = new QWidget(this);
 
 
@@ -82,6 +82,10 @@ void ScheduleMainWindow::showTable(int GroupID){
     days.push_back(friday);
 }
 
+void ScheduleMainWindow::showRepairWindow(){
+    RepairDataMainWindow *r = new RepairDataMainWindow();
+    r->show();
+}
 
 
 

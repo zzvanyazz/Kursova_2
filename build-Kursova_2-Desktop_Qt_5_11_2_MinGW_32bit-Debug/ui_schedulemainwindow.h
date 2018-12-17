@@ -273,7 +273,7 @@ public:
 
     void retranslateUi(QMainWindow *ScheduleMainWindow)
     {
-        ScheduleMainWindow->setWindowTitle(QApplication::translate("ScheduleMainWindow", "MainWindow", nullptr));
+        ScheduleMainWindow->setWindowTitle(QApplication::translate("ScheduleMainWindow", "\320\240\320\276\320\267\320\272\320\273\320\260\320\264", nullptr));
         ButtonAddPanelItem->setText(QApplication::translate("ScheduleMainWindow", "+", nullptr));
         labelGrup->setText(QApplication::translate("ScheduleMainWindow", "\320\223\321\200\321\203\320\277\320\260:", nullptr));
         name_grup->setText(QString());
